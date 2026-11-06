@@ -10,16 +10,20 @@ This project demonstrates an end-to-end modern data warehousing solution—build
 
 This project strictly adheres to the **Medallion Architecture** pattern, processing data through three distinct layers:
 [ Source Systems (CRM / ERP) ]
+
 │
 ▼
 🥉 BRONZE LAYER (Raw Ingestion)
 │
+
 ▼
 🥈 SILVER LAYER (Cleaned & Transformed)
+
 │
 ▼
 🥇 GOLD LAYER   (Star Schema - Dimensions & Facts)
 │
+
 ▼
 [ Analytics & Power BI Dashboards ]
 
